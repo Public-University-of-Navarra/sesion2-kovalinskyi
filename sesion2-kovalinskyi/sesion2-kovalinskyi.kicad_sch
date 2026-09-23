@@ -2,9 +2,101 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 99d4a334-3c53-424d-bcc9-9b696a6ef66c)
+	(uuid "99d4a334-3c53-424d-bcc9-9b696a6ef66c")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 59.69 95.25)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a82c2ad-0cab-4abe-84b3-0997683688cb")
+		(property "Sheetname" "microcontrolador"
+			(at 59.69 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontrolador.kicad_sch"
+			(at 59.69 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 67.31)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f5ed50df-eccc-4114-bd29-75cb10e7f4d7")
+		(property "Sheetname" "alimentacion"
+			(at 60.96 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentacion.kicad_sch"
+			(at 60.96 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
