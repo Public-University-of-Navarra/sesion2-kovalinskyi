@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2c358bc8-a852-4201-b0c2-bc2b8d92a649")
+	(uuid "63cf16e2-f6da-4360-8e10-bcaa3710d482")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -519,6 +519,127 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 85.09 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ac9197-f472-45a0-886d-5184397daa10")
 	)
 	(junction
 		(at 120.65 82.55)
@@ -527,19 +648,25 @@
 		(uuid "34bec5c1-3f47-4a3a-847f-819057fc6fac")
 	)
 	(junction
+		(at 88.9 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "401e5075-f67b-441e-8950-f337856f0b4f")
+	)
+	(junction
 		(at 120.65 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1d5a37-5cbd-4b99-b7a7-32ece9b32235")
 	)
 	(junction
-		(at 82.55 74.93)
+		(at 69.85 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70c07fb5-457e-4f01-874c-a7c3eef6ced7")
 	)
 	(junction
-		(at 82.55 82.55)
+		(at 69.85 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "846abe0d-d0ff-41c1-b9f0-4c8d9ec3b4c5")
@@ -552,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 82.55) (xy 82.55 82.55)
+			(xy 45.72 82.55) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 58.42 82.55)
+			(xy 45.72 49.53) (xy 45.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 49.53) (xy 58.42 49.53)
+			(xy 72.39 49.53) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 101.6 82.55)
+			(xy 69.85 82.55) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 82.55 74.93)
+			(xy 69.85 63.5) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +759,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 85.09 49.53)
+			(xy 88.9 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc81a262-2754-4d7c-b437-aada82bbf8f8")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 93.98 74.93)
+			(xy 69.85 74.93) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 85.09 60.96)
+			(xy 63.5 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 76.2 63.5)
+			(xy 69.85 63.5) (xy 63.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -704,7 +841,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 71.12 63.5 180)
+		(at 58.42 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -715,7 +852,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ff54a0b-7b86-4e06-b1c6-8f35e8a9c465")
 		(property "Reference" "J1"
-			(at 71.12 54.61 0)
+			(at 58.42 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -725,7 +862,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 71.12 57.15 0)
+			(at 58.42 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -735,7 +872,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 71.12 63.5 0)
+			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -746,7 +883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 63.5 0)
+			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -757,7 +894,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 63.5 0)
+			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -768,7 +905,7 @@
 			)
 		)
 		(property "MPN" "1725656"
-			(at 71.12 63.5 0)
+			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -888,6 +1025,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62346306-7d09-4710-ab7f-76099906b21c")
+		(property "Reference" "#FLG02"
+			(at 88.9 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 88.9 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "166c6c28-bb53-44ba-9505-ff6227c6db95")
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 78.74 180)
 		(unit 1)
@@ -970,8 +1185,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 82.55 78.74 180)
+		(lib_id "power:PWR_FLAG")
+		(at 85.09 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -980,31 +1195,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fc43da5-4ce7-48e4-96d1-33b10721763e")
-		(property "Reference" "C1"
-			(at 86.36 77.4699 0)
+		(uuid "8c16a063-4340-4706-9b06-bb7e3881fa19")
+		(property "Reference" "#FLG01"
+			(at 85.09 73.025 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 86.36 80.0099 0)
+		(property "Value" "PWR_FLAG"
+			(at 85.09 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 81.5848 74.93 0)
+		(property "Footprint" ""
+			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +1229,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 78.74 0)
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 85.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "998376aa-d781-4e54-ad5a-b77c0eb7404d")
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc43da5-4ce7-48e4-96d1-33b10721763e")
+		(property "Reference" "C1"
+			(at 73.66 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 73.66 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 68.8848 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1026,7 +1319,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 82.55 78.74 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5,6 +5,26 @@
 	(uuid "99d4a334-3c53-424d-bcc9-9b696a6ef66c")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10770436-2ad9-4c6e-8d6f-0b599e091a4a")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40caa4c-67ed-4f59-a1c0-0a146fccb731")
+	)
 	(sheet
 		(at 59.69 95.25)
 		(size 26.67 25.4)
@@ -12,7 +32,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -22,7 +41,7 @@
 		)
 		(uuid "8a82c2ad-0cab-4abe-84b3-0997683688cb")
 		(property "Sheetname" "microcontrolador"
-			(at 59.69 94.5384 0)
+			(at 59.69 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +52,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontrolador.kicad_sch"
-			(at 59.69 121.2346 0)
+			(at 79.502 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +60,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 74.93 95.25 90)
+			(uuid "6485381c-5d68-4e0b-99cd-e8bc5593ec77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 71.12 95.25 90)
+			(uuid "a0d74d35-b211-48b6-a9f2-48ef9ad24290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -53,12 +92,11 @@
 	)
 	(sheet
 		(at 60.96 67.31)
-		(size 22.86 19.05)
+		(size 20.32 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -79,7 +117,7 @@
 			)
 		)
 		(property "Sheetfile" "alimentacion.kicad_sch"
-			(at 60.96 86.9446 0)
+			(at 76.962 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +125,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 74.93 81.28 270)
+			(uuid "88b007b9-9fe1-47c6-925d-63591bf418bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 71.12 81.28 270)
+			(uuid "58dad9fd-622d-4a66-8d77-709c229936f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
