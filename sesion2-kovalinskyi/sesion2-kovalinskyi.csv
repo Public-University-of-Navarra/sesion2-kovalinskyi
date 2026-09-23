@@ -1,0 +1,8 @@
+"Reference","Qty","Value","Footprint","Datasheet","MPN"
+"C1,C3,C4","3","100nF","Capacitor_SMD:C_0805_2012Metric","",""
+"C2","1","10uF","Capacitor_SMD:C_0805_2012Metric","",""
+"J1","1","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal","","1725656"
+"J2","1","Conn_01x06_Pin","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","","PREC006SAAN-RC"
+"R1,R2","2","1k","Resistor_SMD:R_0805_2012Metric","",""
+"U1","1","LD1117S33TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf","LD1117S33TR"
+"U2","1","ATmega328P-AU","Package_QFP:TQFP-32_7x7mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf","ATMEGA328P-AU"
