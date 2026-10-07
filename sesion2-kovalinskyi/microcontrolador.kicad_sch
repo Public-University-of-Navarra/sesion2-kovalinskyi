@@ -1914,6 +1914,41 @@
 		)
 		(uuid "f0598b91-f005-4780-b567-4d0cb8c7aa9c")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 134.62 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "299d5f52-2fca-4682-ae0c-0265ea2aff58")
+		(property "Netclass" "SIGNAL"
+			(at 135.3185 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 20.32 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 72.39 62.23 180)
