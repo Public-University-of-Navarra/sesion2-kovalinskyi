@@ -7,23 +7,93 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 71.12 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10770436-2ad9-4c6e-8d6f-0b599e091a4a")
-	)
-	(wire
-		(pts
 			(xy 74.93 81.28) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d40caa4c-67ed-4f59-a1c0-0a146fccb731")
+		(uuid "46844003-e99f-48dd-bf34-fad2eebf107f")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c40983-e074-4b43-8d4a-c777031bc0ce")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 71.12 90.17 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f48c631-994d-4eee-bf23-ae6b3e54eb84")
+		(property "Netclass" "GND"
+			(at 68.58 89.4715 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -13.97 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 74.93 90.17 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ddda2bd8-7858-499c-99eb-b5033ae92ce5")
+		(property "Netclass" "POWER"
+			(at 77.47 89.4715 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 31.75 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 59.69 95.25)

@@ -211,6 +211,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -636,16 +759,28 @@
 		)
 	)
 	(junction
-		(at 85.09 74.93)
+		(at 77.47 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05ac9197-f472-45a0-886d-5184397daa10")
+		(uuid "01224d7e-53bc-41f0-bf42-6673e7e9eb74")
 	)
 	(junction
-		(at 120.65 82.55)
+		(at 143.51 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb4861f-1fa8-41da-8b7c-083ae0b250d6")
+	)
+	(junction
+		(at 133.35 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34bec5c1-3f47-4a3a-847f-819057fc6fac")
+	)
+	(junction
+		(at 95.25 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37feaa4c-2172-4d15-b095-3ac82671ff71")
 	)
 	(junction
 		(at 88.9 82.55)
@@ -654,7 +789,7 @@
 		(uuid "401e5075-f67b-441e-8950-f337856f0b4f")
 	)
 	(junction
-		(at 120.65 74.93)
+		(at 133.35 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1d5a37-5cbd-4b99-b7a7-32ece9b32235")
@@ -672,7 +807,13 @@
 		(uuid "846abe0d-d0ff-41c1-b9f0-4c8d9ec3b4c5")
 	)
 	(junction
-		(at 101.6 82.55)
+		(at 143.51 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc7a089-0214-4792-8fae-81d5c7b43f96")
+	)
+	(junction
+		(at 114.3 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb6c6da7-d2c8-4f2b-9b49-1abf3ad4acb4")
@@ -699,6 +840,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 74.93) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1345ec73-7c04-4d41-b680-cfcf38d12001")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbe7ce8-3869-41b5-b357-f47c7c4c1490")
+	)
+	(wire
+		(pts
 			(xy 72.39 49.53) (xy 45.72 49.53)
 		)
 		(stroke
@@ -709,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 120.65 82.55)
+			(xy 114.3 82.55) (xy 133.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 120.65 74.93)
+			(xy 121.92 74.93) (xy 133.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 133.35 74.93)
+			(xy 133.35 74.93) (xy 143.51 74.93)
 		)
 		(stroke
 			(width 0)
@@ -759,16 +920,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 82.55) (xy 101.6 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc81a262-2754-4d7c-b437-aada82bbf8f8")
-	)
-	(wire
-		(pts
 			(xy 72.39 60.96) (xy 72.39 49.53)
 		)
 		(stroke
@@ -779,7 +930,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 74.93) (xy 93.98 74.93)
+			(xy 88.9 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cd9b1c-9d77-44bd-9914-140860809942")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 95.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 82.55) (xy 133.35 82.55)
+			(xy 133.35 82.55) (xy 143.51 82.55)
 		)
 		(stroke
 			(width 0)
@@ -817,9 +978,19 @@
 		)
 		(uuid "eeec9913-3001-4ce5-946d-95811652960f")
 	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb45611b-c722-4d20-b4f0-582f34a74bcd")
+	)
 	(hierarchical_label "+3V3"
 		(shape output)
-		(at 133.35 74.93 0)
+		(at 157.48 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -830,7 +1001,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 133.35 82.55 0)
+		(at 157.48 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -932,7 +1103,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
-		(at 101.6 74.93 0)
+		(at 114.3 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -943,7 +1114,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e93dbbb-2d78-4f10-9bd7-0997ca224534")
 		(property "Reference" "U1"
-			(at 101.6 68.58 0)
+			(at 114.3 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -953,7 +1124,7 @@
 			)
 		)
 		(property "Value" "LD1117S33TR_SOT223"
-			(at 101.6 71.12 0)
+			(at 114.3 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -963,7 +1134,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 101.6 69.85 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +1145,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-			(at 104.14 81.28 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -985,7 +1156,7 @@
 			)
 		)
 		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
-			(at 101.6 74.93 0)
+			(at 114.3 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -996,7 +1167,7 @@
 			)
 		)
 		(property "MPN" "LD1117S33TR"
-			(at 101.6 74.93 0)
+			(at 114.3 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1104,7 +1275,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 78.74 180)
+		(at 133.35 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1115,7 +1286,7 @@
 		(fields_autoplaced yes)
 		(uuid "85d460b2-b248-4fb7-8c5f-59fc82d3b24f")
 		(property "Reference" "C2"
-			(at 124.46 77.4699 0)
+			(at 137.16 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1126,7 +1297,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 124.46 80.0099 0)
+			(at 137.16 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1308,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 119.6848 74.93 0)
+			(at 132.3848 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,7 +1319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 78.74 0)
+			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1159,7 +1330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 78.74 0)
+			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1186,7 +1357,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 85.09 74.93 0)
+		(at 95.25 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1194,10 +1365,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c16a063-4340-4706-9b06-bb7e3881fa19")
 		(property "Reference" "#FLG01"
-			(at 85.09 73.025 0)
+			(at 95.25 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,7 +1378,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 85.09 69.85 0)
+			(at 95.25 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1218,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 74.93 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1229,7 +1399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 74.93 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1240,7 +1410,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 85.09 74.93 0)
+			(at 95.25 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1257,6 +1427,164 @@
 			(project "sesion2-kovalinskyi"
 				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9694a2b1-ade8-4b92-bb0e-2cd31e248c9f")
+		(property "Reference" "TP3"
+			(at 146.05 84.5819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 87.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0d2860b-a5d1-4e42-8453-2bce2f6ec8dd")
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98487e43-329a-413e-a724-5baeeed4ba7f")
+		(property "Reference" "TP1"
+			(at 80.01 70.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 82.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ff55f5d-7e9a-4168-a26a-8a4e04c94a39")
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1339,6 +1667,85 @@
 			(project "sesion2-kovalinskyi"
 				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 143.51 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b965646d-82ad-4175-82fc-17704218580f")
+		(property "Reference" "TP2"
+			(at 146.05 70.3579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.05 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c85be078-2320-4ffa-a0cf-5ebed25bb096")
+		)
+		(instances
+			(project "sesion2-kovalinskyi"
+				(path "/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
