@@ -275,7 +275,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1219200|749300|79522016-5e2e-4fc5-8341-be717f1e4499|fc394cf4-7650-4dc4-9a65-dfc404d56cde|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/ad02e68b-9086-460d-ad59-04879670d36a",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -529,17 +534,6 @@
       },
       {
         "clearance": 0.2,
-        "name": "3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
         "name": "BUS_50_INNER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
@@ -585,6 +579,17 @@
         "via_drill": 0.3
       },
       {
+        "clearance": 0.2,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -608,6 +613,24 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/UART-USB/+3V3": [
+        "POWER"
+      ],
+      "/UART-USB/GND": [
+        "GND"
+      ],
+      "/UART-USB/MCU_RX": [
+        "BUS_50_INNER"
+      ],
+      "/UART-USB/MCU_TX": [
+        "BUS_50_INNER"
+      ],
+      "/UART-USB/USB+": [
+        "DIFF_90"
+      ],
+      "/UART-USB/USB-": [
+        "DIFF_90"
+      ],
       "/alimentacion/+3V3": [
         "3V3"
       ],
@@ -633,7 +656,7 @@
         "BUS_50_TOP"
       ],
       "Net-(J1-Pin_1)": [
-        "3V3"
+        "POWER"
       ],
       "Net-(J2-Pin_2)": [
         "SIGNAL"
@@ -814,7 +837,7 @@
         "uuid": "99d4a334-3c53-424d-bcc9-9b696a6ef66c"
       }
     ],
-    "used_designators": "U1-4,#FLG1-2,R1-7,J1-2,C1-9,TP1-3,D1-2,SW1",
+    "used_designators": "U1-6,#FLG1-2,R1-9,J1-3,C1-10,TP1-3,D1-2,SW1",
     "variants": []
   },
   "sheets": [
@@ -833,6 +856,10 @@
     [
       "7eed674e-adc8-49ad-b6c3-d5950a5ef4d1",
       "sensores"
+    ],
+    [
+      "ad02e68b-9086-460d-ad59-04879670d36a",
+      "UART-USB"
     ]
   ],
   "text_variables": {},

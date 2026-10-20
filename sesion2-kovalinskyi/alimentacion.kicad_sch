@@ -1508,7 +1508,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 69.85 68.58 270)
+		(at 69.85 72.39 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1516,9 +1516,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6307782b-e293-41e1-acf7-818f0d9d9c43")
-		(property "Netclass" "3V3"
-			(at 72.39 67.8815 90)
+		(uuid "a02c23b0-3a86-4711-916d-2653e5d93435")
+		(property "Netclass" "POWER"
+			(at 72.39 71.6915 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 26.67 8.89 0)
+			(at -36.83 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
