@@ -279,6 +279,10 @@
       [
         "pin_to_pin|1219200|749300|79522016-5e2e-4fc5-8341-be717f1e4499|fc394cf4-7650-4dc4-9a65-dfc404d56cde|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/ad02e68b-9086-460d-ad59-04879670d36a",
         ""
+      ],
+      [
+        "pin_to_pin|1219200|889000|79522016-5e2e-4fc5-8341-be717f1e4499|fc394cf4-7650-4dc4-9a65-dfc404d56cde|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/f5ed50df-eccc-4114-bd29-75cb10e7f4d7|/99d4a334-3c53-424d-bcc9-9b696a6ef66c/ad02e68b-9086-460d-ad59-04879670d36a",
+        ""
       ]
     ],
     "meta": {
@@ -628,7 +632,13 @@
       "/UART-USB/USB+": [
         "DIFF_90"
       ],
+      "/UART-USB/USB+_C": [
+        "DIFF_90"
+      ],
       "/UART-USB/USB-": [
+        "DIFF_90"
+      ],
+      "/UART-USB/USB-_C": [
         "DIFF_90"
       ],
       "/alimentacion/+3V3": [
@@ -636,6 +646,12 @@
       ],
       "/alimentacion/GND": [
         "GND"
+      ],
+      "/microcontrolador/PIN_25": [
+        "SIGNAL"
+      ],
+      "/microcontrolador/PIN_26": [
+        "SIGNAL"
       ],
       "/microcontrolador/SCL": [
         "BUS_50_INNER"
@@ -654,6 +670,15 @@
       ],
       "/microcontrolador/SPI_SCK": [
         "BUS_50_TOP"
+      ],
+      "Net-(D3-A1)": [
+        "POWER"
+      ],
+      "Net-(D5-A2)": [
+        "SIGNAL"
+      ],
+      "Net-(D6-A2)": [
+        "SIGNAL"
       ],
       "Net-(J1-Pin_1)": [
         "POWER"
@@ -837,7 +862,7 @@
         "uuid": "99d4a334-3c53-424d-bcc9-9b696a6ef66c"
       }
     ],
-    "used_designators": "U1-6,#FLG1-2,R1-9,J1-3,C1-10,TP1-3,D1-2,SW1",
+    "used_designators": "U1-6,J1-3,#FLG1-2,R1-11,C1-14,TP1-3,D1-8,SW1,FB1",
     "variants": []
   },
   "sheets": [
