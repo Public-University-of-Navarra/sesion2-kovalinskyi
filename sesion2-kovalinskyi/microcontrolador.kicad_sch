@@ -3047,6 +3047,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 219.71 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e857fb8-a515-4427-a897-f40e3b164c3f")
 		)
@@ -3129,6 +3140,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 217.17 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad0288eb-dd98-4e35-b423-61522e757ebd")
 		)
@@ -3201,6 +3223,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
 			(at 86.36 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3394,6 +3427,17 @@
 				)
 			)
 		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 234.95 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3305b39d-e438-4db1-aee2-80e3b8616ffa")
 		)
@@ -3465,6 +3509,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 223.52 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,6 +3611,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 190.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5263a5e4-ac3b-4424-9602-8c784a0a8530")
 		)
@@ -3627,6 +3693,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 106.68 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 106.68 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,6 +3785,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 198.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
 			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3982,6 +4070,17 @@
 				)
 			)
 		)
+		(property "MPN" "TL3342F160QG"
+			(at 172.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3395830-75e8-4b3a-a478-e7ab97e5c9c7")
 		)
@@ -4055,6 +4154,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 227.33 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 227.33 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,6 +4256,17 @@
 				)
 			)
 		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 237.49 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f7fe7b6-a02c-4756-a17a-e8538f8dd8be")
 		)
@@ -4226,6 +4347,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 196.85 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fbcd1c39-fc9e-4f20-b89a-1edc95de61b7")
 		)
@@ -4296,6 +4428,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 154.94 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,6 +4528,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 106.68 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e945d70e-c3a5-4dd1-a0ac-7865f9094f13")
 		)
@@ -4456,6 +4610,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 204.47 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 204.47 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,6 +4712,17 @@
 				)
 			)
 		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 222.25 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2446b979-5196-419d-a9ae-7dfa9d2b0a5c")
 		)
@@ -4620,6 +4796,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 222.25 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 222.25 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,6 +4896,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 226.06 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcbe8920-eb10-48e5-b532-b881c483010f")
 		)
@@ -4781,6 +4979,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 165.1 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
 			(at 165.1 125.73 0)
 			(hide yes)
 			(show_name no)

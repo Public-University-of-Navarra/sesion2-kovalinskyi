@@ -2002,6 +2002,17 @@
 				)
 			)
 		)
+		(property "MPN" "BLM21PG221SN1D"
+			(at 69.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fff1fc1-9e5c-48b6-b1f4-f0e4a0a69975")
 		)
@@ -2095,6 +2106,17 @@
 				)
 			)
 		)
+		(property "MPN" "150080BS75000"
+			(at 83.82 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4147bdec-e036-4f7b-8f9a-517f16206aa4")
 		)
@@ -2167,6 +2189,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07470RL"
 			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2533,6 +2566,17 @@
 				)
 			)
 		)
+		(property "MPN" "150080VS75000"
+			(at 151.13 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75a38430-e3f6-4a88-816f-f149622918be")
 		)
@@ -2605,6 +2649,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805MKX5R7BB106"
 			(at 133.35 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2688,6 +2743,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 74.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PESD3V3L1BA"
+			(at 74.93 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,6 +3080,17 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 69.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87ff25cd-08e4-4055-975e-83d0ffae079c")
 		)
@@ -3165,6 +3242,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 83.82 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
 			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)

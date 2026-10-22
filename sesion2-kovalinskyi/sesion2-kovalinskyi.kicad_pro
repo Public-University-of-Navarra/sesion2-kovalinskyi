@@ -698,8 +698,28 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "POWER"
+      },
+      {
+        "netclass": "BUS_50_INNER",
+        "pattern": "BUS_50_INNER"
+      },
+      {
+        "netclass": "BUS_50_TOP",
+        "pattern": "BUS_50_TOP"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "SIGNAL"
+      },
+      {
+        "netclass": "DIFF_90",
+        "pattern": "DIFF_90"
       }
     ]
   },
@@ -812,6 +832,12 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -862,7 +888,7 @@
         "uuid": "99d4a334-3c53-424d-bcc9-9b696a6ef66c"
       }
     ],
-    "used_designators": "U1-6,J1-3,#FLG1-2,R1-11,C1-14,TP1-3,D1-8,SW1,FB1",
+    "used_designators": "U1-6,#FLG1-2,R1-11,J1-3,C1-14,TP1-3,D1-8,SW1,FB1",
     "variants": []
   },
   "sheets": [
