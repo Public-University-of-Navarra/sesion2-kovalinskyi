@@ -620,6 +620,12 @@
       "/UART-USB/+3V3": [
         "POWER"
       ],
+      "/UART-USB/C_USB+": [
+        "DIFF_90"
+      ],
+      "/UART-USB/C_USB-": [
+        "DIFF_90"
+      ],
       "/UART-USB/GND": [
         "GND"
       ],
