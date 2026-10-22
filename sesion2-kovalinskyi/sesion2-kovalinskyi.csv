@@ -1,23 +1,23 @@
-"Reference","Qty","Value","Footprint","Datasheet","MPN"
-"C1,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14","13","100nF","Capacitor_SMD:C_0805_2012Metric","","CC0805KRX7R9BB104"
-"C2","1","10uF","Capacitor_SMD:C_0805_2012Metric","","CC0805MKX5R7BB106"
-"D1","1","LED_AZUL","LED_SMD:LED_0805_2012Metric","","150080BS75000"
-"D2","1","LED_VERDE","LED_SMD:LED_0805_2012Metric","","150080VS75000"
-"D3,D4,D5,D6,D7,D8","6","D_TVS","Diode_SMD:D_SOD-123","","PESD3V3L1BA"
-"FB1","1","100 Ohm @ 100MHz","Resistor_SMD:R_0805_2012Metric","","BLM21PG221SN1D"
-"J1","1","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal","","1725656"
-"J2","1","Conn_01x06_Pin","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","","PREC006SAAN-RC"
-"J3","1","USB_C_Receptacle_USB2.0_16P","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","TYPE-C-31-M-12"
-"R1,R2,R5,R10,R11","5","1k","Resistor_SMD:R_0805_2012Metric","","RC0805FR-071KL"
-"R3,R4","2","4.7k","Resistor_SMD:R_0805_2012Metric","","RC0805FR-074K7L"
-"R6","1","470","Resistor_SMD:R_0805_2012Metric","","RC0805FR-07470RL"
-"R7","1","10k","Resistor_SMD:R_0805_2012Metric","","RC0805FR-0710KL"
-"R8,R9","2","5.1k","Resistor_SMD:R_0805_2012Metric","","RC0805FR-075K1L"
-"SW1","1","SW_Push","Button_Switch_SMD:SW_SPST_TL3342","","TL3342F160QG"
-"TP1,TP2,TP3","3","TestPoint","TestPoint:TestPoint_Pad_D1.5mm","",""
-"U1","1","LD1117S33TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf","LD1117S33TR"
-"U2","1","ATmega328P-AU","Package_QFP:TQFP-32_7x7mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf","ATMEGA328P-AU"
-"U3","1","MCP9808_MSOP","Package_SO:MSOP-8_3x3mm_P0.65mm","http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf","MCP9808-E/MS"
-"U4","1","ADXL343","Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y","https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf","ADXL343BCCZ"
-"U5","1","USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf","USBLC6-2SC6"
-"U6","1","CH340C","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf","CH340C"
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14";"C_0805_2012Metric";13;"100nF";;;
+2;"C2";"C_0805_2012Metric";1;"10uF";;;
+3;"D1";"LED_0805_2012Metric";1;"LED_AZUL";;;
+4;"D2";"LED_0805_2012Metric";1;"LED_VERDE";;;
+5;"D3, D4, D5, D6, D7, D8";"D_SOD-123";6;"D_TVS";;;
+6;"FB1";"R_0805_2012Metric";1;"100 Ohm @ 100MHz";;;
+7;"J1";"TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal";1;"Screw_Terminal_01x02";;;
+8;"J2";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06_Pin";;;
+9;"J3";"USB_C_Receptacle_HRO_TYPE-C-31-M-12";1;"USB_C_Receptacle_USB2.0_16P";;;
+10;"R1, R2, R5, R10, R11";"R_0805_2012Metric";5;"1k";;;
+11;"R3, R4";"R_0805_2012Metric";2;"4.7k";;;
+12;"R6";"R_0805_2012Metric";1;"470";;;
+13;"R7";"R_0805_2012Metric";1;"10k";;;
+14;"R8, R9";"R_0805_2012Metric";2;"5.1k";;;
+15;"SW1";"SW_SPST_TL3342";1;"SW_Push";;;
+16;"TP1, TP2, TP3";"TestPoint_Pad_D1.5mm";3;"TestPoint";;;
+17;"U1";"SOT-223-3_TabPin2";1;"LD1117S33TR_SOT223";;;
+18;"U2";"TQFP-32_7x7mm_P0.8mm";1;"ATmega328P-AU";;;
+19;"U3";"MSOP-8_3x3mm_P0.65mm";1;"MCP9808";;;
+20;"U4";"LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y";1;"ADXL343";;;
+21;"U5";"SOT-23-6";1;"USBLC6-2SC6";;;
+22;"U6";"SOIC-16_3.9x9.9mm_P1.27mm";1;"CH340C";;;
